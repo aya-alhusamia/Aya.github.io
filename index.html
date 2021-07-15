@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Aya Portfolio</title>
+<link href='./style.css' rel='stylesheet'>
+	<!--style----->
+	<style>
+		body{
+			font-family:poppins;
+		}
+	</style>
+	  <!--using FontAwesome---------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <!--navigation------------------------->
+        <nav>
+        <!--menu-->
+        <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contat">Contact me</a></li>
+        
+        </ul>
+        <!--bars--------------->
+        <div class="toggle"></div>
+        
+        </nav>
+        <!--text----------------------->
+		<div class="text-container" id="home">
+			<p>Hello,</p>
+		    <p>I&#8217;M AYA</p>
+			<p>Full Stack Developer</p>
+		</div>
+	<!--model---------------------->
+	   <img alt="model" class="model" src="images/aya1.png">  
+      </section>
+      <div class="about-container"> 
+      <!--img-->
+		<img src="images/aya1.png" class="img" />
+        <!--about-me-text-->
+            <div class="about-text"  id="about">
+            <h1>About Me</h1>
+            <p>Hello,My name is Aya Alhusamia </p>
+            I am a Devolper and also a Designer.If you have asany Project or if you want make a software for your bussniess conatact me.I make your project as soon as possible. 
+            <p>Self-motivated and hardworking fresher seeking for an opportunity to work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of the organization.</p>
+             
+          <a href="https://www.canva.com/design/DAEkNldxU-A/-sXI1ZP2KpcKHzMB8c1iWw/edit?layoutQuery=cv"><button>CV </button></a>  
+            </div>
+        </div>
+      <!--services-container---------------------------->
+	<div class="services" id="skills">
+		<!--text-->
+		<div class="services-text ">
+	<p>SKILLS</p>
+	<p>TECHNICAL SKILLS</p>
+	<p> Technical skills are the abilities and knowledge needed to perform specific tasks, They are practical information technology and scientific tasks.nclude knowledge of programming languages,[JS, HTML/CSS , SQL POSTGRES]</p>
+			</div>
+		<div class="box-container">
+		<!--1------------->
+			<div  class="box-2" >
+			<p class="details"><ul>
+               <h4>React Web </h4>
+                <li>React JS</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>CSS/BOOTSTRAP</li>
+                <li>Express-Node</li>
+                <li>SQL POSTGRES</li>
+            </ul> </p>
+			</div>
+	   <!--2------------->
+			<div class="box-2">
+			<p class="details"><ul>
+                <h3>React Native Mobile </h3>
+                <li>React Native</li>
+                <li>Express-Node</li>
+                <li>SQL POSTGRES</li>
+            </ul> </p>
+			</div>
+		</div>
+	</div>
+  <!--if you have any project in your mind contact me-->
+	<div class="contact-me" id="contat">
+		<p>If You Have Any Project In Your Mind ?</p>
+		<ul>Contact me there:
+        <li><b>Phone:</b>0780115494</li>
+        <li><b>Email:</b>alhusamiaya70@gmail.com</li>
+        <li><b>Location:</b>Amman-jordan </li> </ul>
+	</div>
+    
+
+
+   
+   <!--social-attach-bar-->
+   <div class="social">
+   <a href="https://www.facebook.com/aya.alhusami.9"><i class="fab fa-facebook-f"></i></a>
+   <a href="https://github.com/aya-alhusamia"><i class="fab fa-github"></i></a>
+   <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+   </div>
+    <!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+    })
+})
+</script>
+
+  
+</body>
+</html>
